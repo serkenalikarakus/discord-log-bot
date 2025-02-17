@@ -25,7 +25,7 @@ async def on_ready():
     logger.info(f'Bot is ready! Logged in as {bot.user.name}')
     await bot.change_presence(activity=discord.Activity(
         type=discord.ActivityType.watching, 
-        name="Gözüm kütüklerinizde!👀"
+        name="Güzüm kütüklerinizde!👀"
     ))
 
 @bot.event
